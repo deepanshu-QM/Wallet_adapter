@@ -37,5 +37,7 @@ const server = serve({
     console: true,
   },
 });
+const port = 3000;
+console.log(`Port Listen at : ${port}`);
 
 console.log(`🚀 Server running at ${server.url}`);
